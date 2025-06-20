@@ -20,6 +20,6 @@ python moon_picker.py --help
 
 |Option|Example|Default|Description|
 |---|---|---|---|
-|-h --help||||Displays an explanatory text about how to use the script and all of its options
-|-i --input|`-i="mymoons.csv"`|`"vanilla.csv"`|The CSV input file from which moon data is read. Each line defines a single moon and must contain two values: the moon's name and its cost respectively. If no input option is provided, 'vanilla.csv' in the current directory will be used instead|
-|-c --credit|`-c=400`|`0`|The current amount of money that your crew possesses. Any moon whose cost exceeds your savings will be ignored so that you are guaranteed to get a moon you can pay for|
+|-h<br>--help|||Displays an explanatory text about how to use the script and all of its options
+|-i<br>--input|`-i="mymoons.csv"`|`"vanilla.csv"`|The CSV input file from which moon data is read. Each line defines a single moon and must contain two values: the moon's name and its cost respectively. If no input option is provided, 'vanilla.csv' in the current directory will be used instead|
+|-c<br>--credit|`-c=400`|`0`|The current amount of money that your crew possesses. Any moon whose cost exceeds your savings will be ignored so that you are guaranteed to get a moon you can pay for|
