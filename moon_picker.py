@@ -15,7 +15,7 @@ parser.add_argument(
   "--credit",
   type=int,
   default="-1",
-  help="The current amount of money that your crew possesses. Any moon whose cost exceeds your savings will be ignored so that you are guaranteed to get a moon you can pay for."
+  help="The current amount of money that your crew possesses. Any moon whose cost exceeds your savings will be ignored so that you are guaranteed to get a moon you can pay for. If this option isn't provided, all moons will be included."
 )
 args = parser.parse_args()
 
